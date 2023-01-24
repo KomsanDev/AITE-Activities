@@ -1,0 +1,30 @@
+
+
+.vert .carousel-item.active,
+.vert .carousel-item-next,
+.vert .carousel-item-prev {
+  display: block;
+}
+
+.vert .carousel-item-next:not(.carousel-item-start),
+.vert .active.carousel-item-end {
+  transform: translateY(100%);
+}
+
+.vert .carousel-item-prev:not(.carousel-item-end),
+.vert .active.carousel-item-start {
+  transform: translateY(-100%);
+}
+      
+.cover-container {
+max-width: 42em;
+}
+
+.currentPage{
+        display: none;
+}
+
+.cover-h{
+        height: 60vh;
+}
+
